@@ -1,0 +1,16 @@
+
+{
+  "manifest_version": 3,
+  "name": "AETHRA",
+  "version": "1.0.0",
+  "description": "An Adaptive Browser-Based Focus and Attention Support System",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
